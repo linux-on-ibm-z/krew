@@ -11,7 +11,7 @@
 
 Krew is the package manager for kubectl plugins.
 
-## What does Krew do?
+## What does Krew do?     
 
 Krew is a tool that makes it easy to use [kubectl
 plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/). Krew
