@@ -88,6 +88,18 @@ spec:
         arch: arm64
   - uri: https://github.com/kubernetes-sigs/krew/releases/download/KREW_TAG/krew.tar.gz
     sha256: KREW_TAR_CHECKSUM
+    bin: krew
+    files:
+    - from: ./krew-linux_s390x
+      to: krew
+    - from: ./LICENSE
+      to: .
+    selector:
+      matchLabels:
+        os: linux
+        arch: s390x
+  - uri: https://github.com/kubernetes-sigs/krew/releases/download/KREW_TAG/krew.tar.gz
+    sha256: KREW_TAR_CHECKSUM
     bin: krew.exe
     files:
     - from: ./krew-windows_amd64.exe
